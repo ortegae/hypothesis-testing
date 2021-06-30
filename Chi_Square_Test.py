@@ -53,7 +53,7 @@ else:
 
 #Print the results (p_value, best for stakeholders)
 
-if p_value<= critical_value:
+if p_value<= acceptance_criteria:
     print(f" As our p-value statistic of {p_value} is higher than our acceptance criteria of {acceptance_criteria}, we reject the null hypothesis and conclude that {alternate_hypothesis}")
 else:
     print(f" As our chi square statistic of {p_value} is lower than our acceptance cristeria of {acceptance_criteria} we reject the null hypothesis and conclude that {null_hypothesis}")
